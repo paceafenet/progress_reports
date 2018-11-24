@@ -25,7 +25,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Agenda Items
 
-* It is important that I store all code and progress reports using GitHub both for accountability and to facilitate reproduction of this project in the future. It is worth considering what should be kept in the repository. For example, the data I receive from Nigeria and Cameroon in country partners may include information we would not want to be accessible via GitHub.
+1. It is important that I store all code and progress reports using GitHub both for accountability and to facilitate reproduction of this project in the future. It is worth considering what should be kept in the repository. For example, the data I receive from Nigeria and Cameroon in country partners may include information we would not want to be accessible via GitHub.
+2. Metrics for Scorecard; still waiting to review Uganda VL scorecard
+  * Equipment up time vs downtime
+  * Avg number of equipment past due for repair or servicing
+  * Elapsed time after past due 
 
 
 
