@@ -12,7 +12,9 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = F,
+                      warning = F,
+                      message = F)
 
 ```
 
@@ -22,14 +24,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * Created a project GitHub account and associated repositories. Currently there are three repositories; one that will contain all eTool development code, another that will host a [GitHub Page](https://pages.github.com/) for progress, and a third repository that will host a GitHub page for the project's Final Report.
 * Created associated RProject file for each repository and made templates that will be used to populate the GitHub pages referenced above.
+* Began writing the outline and portions of the Final Report page. This will be a living document that serves as a road map of how this project was completed.
 
 ## Agenda Items
 
 1. It is important that I store all code and progress reports using GitHub both for accountability and to facilitate reproduction of this project in the future. It is worth considering what should be kept in the repository. For example, the data I receive from Nigeria and Cameroon in country partners may include information we would not want to be accessible via GitHub.
-2. Metrics for Scorecard; still waiting to review Uganda VL scorecard
+2. Metrics for Scorecard; still waiting to review Uganda VL scorecard - proposed items below
   * Equipment up time vs downtime
   * Avg number of equipment past due for repair or servicing
   * Elapsed time after past due 
+  * What are acceptable levels for the above?
+3. Separate propsal for Viral Load Scorecard?
 
 
 
