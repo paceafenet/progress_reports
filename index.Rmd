@@ -34,7 +34,8 @@ knitr::opts_chunk$set(echo = F,
   * Avg number of equipment past due for repair or servicing
   * Elapsed time after past due 
   * What are acceptable levels for the above?
-3. Separate propsal for Viral Load Scorecard?
+3. Separate proposal for Viral Load Scorecard?
+4. When can we hope to obtain in-country data from Nigeria and Cameroon?
 
 
 
