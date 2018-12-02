@@ -23,11 +23,13 @@ knitr::opts_chunk$set(echo = F,
 
 ## Progress Items
 
-* Created a project GitHub account and associated repositories. Currently there are three repositories; one that will contain all eTool development code, another that will host a [GitHub Page](https://pages.github.com/) for progress, and a third repository that will host a GitHub page for the project's Final Report.
+* Created a project GitHub account and associated repositories. Currently there are three repositories; one that will contain all eTool development code, another that will host a [GitHub Page](https://pages.github.com/) for progress, and a third repository that will host a GitHub page for the project's [Final Report](https://paceafenet.github.io/final_report/).
 * Created associated RProject file for each repository and made templates that will be used to populate the GitHub pages referenced above.
 * Began writing the outline and portions of the Final Report page. This will be a living document that serves as a road map of how this project was completed.
 * Reviewed possible scorecard metrics
-* Reviewed Uganda VL Scorecard - sent brief proposal to Ruth, separate from eTool development. 
+* Reviewed Uganda VL Scorecard - sent brief proposal to Ruth, separate from eTool development.
+* Began reviewing Nigeria data. 
+* Created 'fake' equipment data should we be unable to obtain sufficient equipment data from the field.
 
 ## Agenda Items
 
@@ -39,8 +41,9 @@ knitr::opts_chunk$set(echo = F,
   * Avg number of equipment past due for repair or servicing
   * Elapsed time after past due 
   * What are acceptable levels for the above?
-3. When can we hope to obtain in-country data from Nigeria and Cameroon? (received - will review soon)
-4. When should I purchase and invoice a shinyapps.io account?
+3. Nigeria Data: Quite a bit there, maybe not everything we would need. Biggest issue; for each machine type, one row per lab, allows them to say more than one machine but only one serial number showing.Took a while to successfully import the data from the Nigeria Access Databases, solved it. Still working on initial data exploration, will update on next call.
+4. When can we hope to obtain in-country data from Cameroon? 
+5. When should I purchase and invoice a shinyapps.io account?
 
 
 
