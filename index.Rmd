@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
-# Dec 3 - Dec 9, 2018
+# Dec 3 - Dec 16, 2018
 
 ## Progress Items
 
