@@ -1,15 +1,19 @@
 ---
+# BE SURE TO OUTPUT TWICE - AS HTML AND PDF
 title: "Weekly Progress Reports"
 description: |
-  This page will act as a repository for all weekly progress reports and proposed agenda items for IT Task Force.
 author:
-  - name: Travis Sondgerath 
+  - name: Travis Sondgerath
 date: "`r Sys.Date()`"
 output:
   html_document:
     toc: true
     toc_depth: 2
     toc_float: true
+# output:
+#   pdf_document:
+#     toc: true
+#     toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -18,6 +22,25 @@ knitr::opts_chunk$set(echo = F,
                       message = F)
 
 ```
+
+# Dec 31, 2018 - Jan 1, 2019
+
+## Progress Items
+
+## Agenda Items
+
+# Dec 17 - Dec 30, 2018
+
+## Progress Items
+
+* During the Dec 18 call it was requested that in addition to the website version of the progress reports, I also make the report available as a pdf or word document if possible. It took a bit of figuring out, but I will now be asking Ruth to attach the most up to date version of the progress report as a pdf to each week's meeting invite as well as include the link to the progress report site. 
+* Drafted and sent the first invoice for first five weeks of work.
+* Finalized the Nigeria report. During the Dec 18 call it was also requested that I also summarize the service providers in the Nigerian assessment data. Note to Travis: Go to the [report](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md) and summarize this additional table. 
+* Began developing eTool application code based on fake data set. 
+
+## Agenda Items
+1. Discuss eTool layout. So far working on the map to show what labs need attention (discuss criteria), general layout scheme developed.
+2. Discuss Nigeria report updates.
 
 # Dec 3 - Dec 16, 2018
 
