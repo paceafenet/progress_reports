@@ -12,7 +12,7 @@ output:
     toc_float: true
 # output:
 #   pdf_document:
-#     toc: true
+#     toc: TRUE
 #     toc_depth: 2
 ---
 
@@ -23,11 +23,17 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
-# Dec 31, 2018 - Jan 1, 2019
+# Dec 31, 2018 - Jan 6, 2019
 
 ## Progress Items
+* Working on layout of eTool. Currently have a map, charts describing the current state of the data, as well as tables in a single layout. 
+* Updated final report with additional libraries used in eTool development (DT and leaflet). 
 
 ## Agenda Items
+1. Current state of invoice. Sent, 12/26, need feedback on format and payment to progress.
+2. Discuss eTool current state. I have made significant progress, on the layout and functionality of the tool. I still need to add the ability to edit the data and have these changes captured in the app. However, the layout is coming along nicely.
+3. See updates in the [Final Report](https://paceafenet.github.io/final_report/) for additional tools used during development.
+4. Have reached out to Cameroon a few times, hoping to reconnect now that most people should be back from leave. 
 
 # Dec 17 - Dec 30, 2018
 
