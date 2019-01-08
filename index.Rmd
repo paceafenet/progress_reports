@@ -32,6 +32,7 @@ knitr::opts_chunk$set(echo = F,
 ## Agenda Items
 1. Current state of invoice. Sent, 12/26, need feedback on format and payment to progress.
 2. Discuss eTool current state. I have made significant progress, on the layout and functionality of the tool. I still need to add the ability to edit the data and have these changes captured in the app. However, the layout is coming along nicely.
+If you are not accessing the meeting via a computer, here is a [link](https://github.com/paceafenet/etool_dev/blob/master/screen%20grabs/eTool%20pic%20one%201_7_19.jpg) to a screen grab of the current layout.
 3. See updates in the [Final Report](https://paceafenet.github.io/final_report/) for additional tools used during development.
 4. Have reached out to Cameroon a few times, hoping to reconnect now that most people should be back from leave. 
 
