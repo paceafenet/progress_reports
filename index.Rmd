@@ -2,18 +2,17 @@
 # BE SURE TO OUTPUT TWICE - AS HTML AND PDF
 title: "Weekly Progress Reports"
 description: |
-author:
-  - name: Travis Sondgerath
+author: Travis Sondgerath
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
 # output:
-#   pdf_document:
-#     toc: TRUE
+#   html_document:
+#     toc: true
 #     toc_depth: 2
+#     toc_float: true
+output:
+  pdf_document:
+    toc: TRUE
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -22,6 +21,23 @@ knitr::opts_chunk$set(echo = F,
                       message = F)
 
 ```
+
+# Jan 7, - Jan 13, 2019
+
+## Progress Items
+
+* Finalized initial layout of the tool including background colors, text color, and object. Functionality to edit data to come later. Added custom layout for mobile. Currently, I have hidden several charts that appear on the desktop app from the mobile app. Will plan to change the UI for mobile.
+* Posted most up to date app to shinyapps.io. 
+* Sent Ruth the link to the app.
+* Added eTool link to the project home page.
+* Presented the current layout to the larger group for feedback.
+
+## Agenda Items
+
+1. Have not heard back from Mimi as of yet. Need feedback on invoice. 
+2. Follow-up on any action items from larger group meeting.
+3. Discuss the current state of the layout.
+4. Consider follow-up with Cameroon team for their data. Worth getting to add to report of current data state. Gives us good information for what we 'need' for the tool as well as completing one of the project deliverables. 
 
 # Dec 31, 2018 - Jan 6, 2019
 
@@ -72,8 +88,6 @@ If you are not accessing the meeting via a computer, here is a [link](https://gi
 * Created a project GitHub account and associated repositories. Currently there are three repositories; one that will contain all eTool development code, another that will host a [GitHub Page](https://pages.github.com/) for progress, and a third repository that will host a GitHub page for the project's [Final Report](https://paceafenet.github.io/final_report/).
 * Created associated RProject file for each repository and made templates that will be used to populate the GitHub pages referenced above.
 * Began writing the outline and portions of the Final Report page. This will be a living document that serves as a road map of how this project was completed.
-* Reviewed possible scorecard metrics
-* Reviewed Uganda VL Scorecard - sent brief proposal to Ruth, separate from eTool development.
 * Began reviewing Nigeria data. 
 * Created 'fake' equipment data should we be unable to obtain sufficient equipment data from the field.
 
