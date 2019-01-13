@@ -4,15 +4,15 @@ title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-# output:
-#   html_document:
-#     toc: true
-#     toc_depth: 2
-#     toc_float: true
 output:
-  pdf_document:
-    toc: TRUE
+  html_document:
+    toc: true
     toc_depth: 2
+    toc_float: true
+# output:
+#   pdf_document:
+#     toc: TRUE
+#     toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -28,9 +28,10 @@ knitr::opts_chunk$set(echo = F,
 
 * Finalized initial layout of the tool including background colors, text color, and object. Functionality to edit data to come later. Added custom layout for mobile. Currently, I have hidden several charts that appear on the desktop app from the mobile app. Will plan to change the UI for mobile.
 * Posted most up to date app to shinyapps.io. 
-* Sent Ruth the link to the app.
+* Sent Ruth the [link](https://travis-shinin-spot.shinyapps.io/etool_dev/) to the app.
 * Added eTool link to the project home page.
 * Presented the current layout to the larger group for feedback.
+* Read up on ONA document. Usable API and seems reasonable, the question would be WHO would take ownership in the field and be responsible for entering data?
 
 ## Agenda Items
 
