@@ -4,15 +4,15 @@ title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
 # output:
-#   pdf_document:
-#     toc: TRUE
+#   html_document:
+#     toc: true
 #     toc_depth: 2
+#     toc_float: true
+output:
+  pdf_document:
+    toc: TRUE
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -22,14 +22,35 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
-# Jan 21 - Jan, 27 2019
+# Jan 28 - Feb 3, 2019
+
+## Progress Items
+
+* eTool Updates - Added confirmation message once the user selects the update date button. This will inform them that they have altered the underlying equipment data. Additionally, I have added popup boxes to inform them they have altered the underlying data. 
+* Updated the final report, specifically the R libraries section. 
+* Reviewed contract deliverables. Worth discussing the current state (see agenda items). 
+
+## Agenda Items
+
+1. I received my first wire which includes the fees for subscriptions for GitHub and shinyapps.io. Other than those who have been included in the IT calls as well as the the larger equipment maintenance group, is there anyone else I should include on the access lists for these accounts? 
+2. Discuss current layout of the tool. Really coming along nicely.
+3. Deliverable 1 in SOW - *Support the review of existing Nigeria/Cameroon country data (Deliverable – data reviewed, interim report* - Due Date: December, 2018
+    + I have reviewed and [reported](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md) on the current state of the Nigeria data from the past laboratory assessment. 
+    + I also have reached out to the Cameroon Team repeatedly, and have not had any success in obtaining their data. I understand that ASLM/IRESSEF/CDC will be meeting in Nigeria soon (perhaps even this week) where it is possible progress could be made on this front in person.
+    + I would like to consider this deliverable fulfilled. Although, I would be happy to review their data if it is made accessible to me in the very near future. If we cannot obtain it during February I would like to close this deliverable and consider it completed.
+4. Deliverable 2 in SOW - *Collaborate with and lead the IT Task Force to identify the best systems, processes and tools to meet the program goals (Deliverable – weekly calls with Task Force to support review of data and development of eTool; final list of eTool features outlined* - Due Date: February, 2019
+    + We have consistently held weekly meetings and I have provided updates on progress. Ruth has been the most consistent attendee on the progress management side and I believe my progress has been swift and satisfactory.
+    + There are a few more changes I plan to make to the eTool, however, I believe that the core functionality and layout is set. If it is agreed upon that the current tool is acceptable, I would like to begin creating an outline of eTool features and post this report to GitHub to satisfy this deliverable. 
+    + Finalizing the eTool layout and working on the outline will allow me to begin developing metrics for a dashboard to support project and laboratory supervisors in assessing maintenance activities (part of SOW deliverable 3). 
+
+# Jan 21 - Jan 27, 2019
 
 ## Progress Items
 
 * I was able to get the data behind the eTool (googlesheets) to update based on user input in the eTool. At first I had trouble reconciling the date formats of the dates from my original "fake" data with the new data added by the user. I was able to get things working correctly but my initial approach would have slowed the tool down too much even for demonstration purposes. I am re-worked my approach and now it is functioning correctly. The tool now includes core functionality either outlined in the contract or discussed during calls, namely it can:
-  + Give a summary of the current state of the equipment
-  + Allow the user to update equipment data - I'll have to play around with the eTool behavior but I think the user has to refresh the app for changes to be reflected.
-  + The eTool will only show the most recent data for each piece of equipment, however the original data is retained in the underlying googlesheet, allowing for the development of equipment "life books."
+    + Give a summary of the current state of the equipment
+    + Allow the user to update equipment data - I'll have to play around with the eTool behavior but I think the user has to refresh the app for changes to be reflected.
+    + The eTool will only show the most recent data for each piece of equipment, however the original data is retained in the underlying googlesheet, allowing for the development of equipment "life books."
 * As a follow-up to an inquiry from Theresa, I created an example code that could send alerts via email alerting partners to examine the eTool - [See example](https://github.com/paceafenet/etool_dev/blob/master/email_proof_of_concept.Rmd). R library used for this (blastula) can be found in the [final report](https://paceafenet.github.io/final_report/). Additionally, I created a pricing guide for row level security as well as report scheduling features in commercial software - priced out RStudio Connect, PBI, Tableau. Summary and slides sent to Theresa (Fatima and Ruth CC'd) - [See Slides](https://github.com/paceafenet/etool_dev/blob/master/Quick%20Pricing%20Guide%20%E2%80%93%20analytics%20reporting%20tools.pptx). Did she get it? Might have gone to spam.
 
 ## Agenda Items
