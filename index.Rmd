@@ -4,15 +4,15 @@ title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
 # output:
-#   pdf_document:
-#     toc: TRUE
+#   html_document:
+#     toc: true
 #     toc_depth: 2
+#     toc_float: true
+output:
+  pdf_document:
+    toc: TRUE
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -22,13 +22,24 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
+# Feb 11 - Feb 17, 2019
+
+## Progress Items
+
+* Developed outline for eTool (Deliverable 2). 
+* Output as pdf and added to project home page.
+
+## Agenda Items
+
+1. Discuss eTool outline.
+2. Discuss consiering Deliverable 1 as completed. 
+
 # Feb 4 - Feb 10, 2019
 
 ## Progress Items
 
 * Made eTool dev repository private and sent Mimi receipt for 12 month subscription. Sent email alluding to who I would like to add as collaborators. They will need to create GitHub accounts to view, discussed in email to Ruth and Fatima.
 * eTool dev repository set as private, however, I left the final report and progress reports repositories as public. There is nothing sensitive and the websites developed from these repositories are worth showing outsiders for accountability and to describe our work. 
-
 
 ## Agenda Items
 
