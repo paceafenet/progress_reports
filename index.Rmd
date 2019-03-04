@@ -4,15 +4,15 @@ title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
 # output:
-#   pdf_document:
-#     toc: TRUE
+#   html_document:
+#     toc: true
 #     toc_depth: 2
+#     toc_float: true
+output:
+  pdf_document:
+    toc: TRUE
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -21,6 +21,18 @@ knitr::opts_chunk$set(echo = F,
                       message = F)
 
 ```
+
+# Feb 25th - March 3, 2019
+
+## Progress Items
+
+* I have begun developing more technical documentation on adpating the eTool code for futrue se. 
+
+## Agenda Items
+
+1. Discuss eTool outline.
+2. Discuss technical guidance. 
+3. Payment request for January submitted to CDC. Any to get more timely payment?
 
 # Feb 11 - Feb 17, 2019 + Feb 18 - Feb 24th 
 
