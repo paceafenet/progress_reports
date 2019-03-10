@@ -4,15 +4,15 @@ title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-# output:
-#   html_document:
-#     toc: true
-#     toc_depth: 2
-#     toc_float: true
 output:
-  pdf_document:
-    toc: TRUE
+  html_document:
+    toc: true
     toc_depth: 2
+    toc_float: true
+# output:
+#   pdf_document:
+#     toc: TRUE
+#     toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -22,11 +22,26 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
-# Feb 25th - March 3, 2019
+# March 4th - March 11th, 2019
 
 ## Progress Items
 
-* I have begun developing more technical documentation on adpating the eTool code for futrue se. 
+* Discussed current progress with Theresa. Specifically, we discussed issues regarding deploying the tool to the field and issues with partners in-country being able to fully adapt, maintain, and use data entered/altered using the eTool.
+* Installed RStudio Connect QuickStart. This is essentially a trial version of RStudio Connect that you run locally on your machine rather than on a server. This is the service I would recommend to CDC as other analytics tools are essentially for reporting only. You can develop reports and administrate access to those reports, however users/viewers cannot alter underlying data using those reporting tools. 
+* Updated Final report.
+* Updated eTool to include second page with form for uploading data for a single new piece of equipment. 
+
+## Agenda Items
+
+1. Discuss RStudio Connect layout and admin tools.
+2. Discuss RStudio Cloud.
+3. Discuss additions to eTool.
+
+# Feb 25th - March 3rd, 2019
+
+## Progress Items
+
+* I have begun developing more technical documentation on adapting the eTool code for future use. 
 
 ## Agenda Items
 
@@ -38,14 +53,14 @@ knitr::opts_chunk$set(echo = F,
 
 ## Progress Items
 
-* Developed outline for eTool (Deliverable 2). Refined the outline further. This outline can serve as a user manual for those tracking equipment data in the field. A technical user manual will complement this as a component of deliverale 3. I would like to share this document with the larger equipment maintenance group.
+* Developed outline for eTool (Deliverable 2). Refined the outline further. This outline can serve as a user manual for those tracking equipment data in the field. A technical user manual will complement this as a component of deliverable 3. I would like to share this document with the larger equipment maintenance group.
   + Output as pdf and added to project home page.
 * Discuss whether or not I am ready to develop a technical user manual for maintaining the eTool code. 
 
 ## Agenda Items
 
 1. Discuss eTool outline.
-2. Discuss consiering Deliverable 1 as completed. 
+2. Discuss considering Deliverable 1 as completed. 
 
 # Feb 4 - Feb 10, 2019
 
