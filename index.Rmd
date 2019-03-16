@@ -4,15 +4,15 @@ title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
 # output:
-#   pdf_document:
-#     toc: TRUE
+#   html_document:
+#     toc: true
 #     toc_depth: 2
+#     toc_float: true
+output:
+  pdf_document:
+    toc: TRUE
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -21,6 +21,19 @@ knitr::opts_chunk$set(echo = F,
                       message = F)
 
 ```
+
+# March 12th - March 17th, 2019
+
+## Progress Items
+
+* Created a [form](https://travis-shinin-spot.shinyapps.io/new_equip_form/) to add data for new equipment to the eTool database. Added link to it in eTool.
+* Created a project [workspace](https://rstudio.cloud/project/255745) that could be used to build capcaity in R programming so that the eTool could be adapted in country.
+
+## Agenda Items
+
+1. New form created - go over
+2. Discuss conversation with Theresa and RStudio Cloud test workspace.
+3. Paymnet delay. Need status update, can provide further info if necessary. 
 
 # March 4th - March 11th, 2019
 
