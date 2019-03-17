@@ -4,15 +4,15 @@ title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-# output:
-#   html_document:
-#     toc: true
-#     toc_depth: 2
-#     toc_float: true
 output:
-  pdf_document:
-    toc: TRUE
+  html_document:
+    toc: true
     toc_depth: 2
+    toc_float: true
+# output:
+#   pdf_document:
+#     toc: TRUE
+#     toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -26,14 +26,15 @@ knitr::opts_chunk$set(echo = F,
 
 ## Progress Items
 
-* Created a [form](https://travis-shinin-spot.shinyapps.io/new_equip_form/) to add data for new equipment to the eTool database. Added link to it in eTool.
-* Created a project [workspace](https://rstudio.cloud/project/255745) that could be used to build capcaity in R programming so that the eTool could be adapted in country.
+* Created a *[form](https://travis-shinin-spot.shinyapps.io/new_equip_form/)* to add data for new equipment to the eTool database. Added link to it in eTool.
+* Created a project *[workspace](https://rstudio.cloud/project/255745)* that could be used to build capacity in R programming so that the eTool could be adapted in country.
 
 ## Agenda Items
 
 1. New form created - go over
-2. Discuss conversation with Theresa and RStudio Cloud test workspace.
-3. Paymnet delay. Need status update, can provide further info if necessary. 
+2. Discuss conversation with Theresa and RStudio Cloud test work space.
+3. Discuss RStudio Connect updates below. 
+4. Payment delay. Need status update, can provide further info if necessary. 
 
 # March 4th - March 11th, 2019
 
@@ -88,7 +89,7 @@ knitr::opts_chunk$set(echo = F,
 2. Discuss my email regarding adding those involved with the equipment maintenance project as collaborators on GitHub if not resolved already. 
 3. **Good time to discuss SOW:** 
 Deliverable 1 in SOW - *Support the review of existing Nigeria/Cameroon country data (Deliverable – data reviewed, interim report* - Due Date: December, 2018
-    + I have reviewed and [reported](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md) on the current state of the Nigeria data from the past laboratory assessment. 
+    + I have reviewed and **[reported](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md)** on the current state of the Nigeria data from the past laboratory assessment. 
     + I also have reached out to the Cameroon Team repeatedly, and have not had any success in obtaining their data. I understand that ASLM/IRESSEF/CDC will be meeting in Nigeria soon (perhaps even this week) where it is possible progress could be made on this front in person.
     + I would like to consider this deliverable fulfilled. Although, I would be happy to review their data if it is made accessible to me in the very near future. If we cannot obtain it during February I would like to close this deliverable and consider it completed.
 4. Deliverable 2 in SOW - *Collaborate with and lead the IT Task Force to identify the best systems, processes and tools to meet the program goals (Deliverable – weekly calls with Task Force to support review of data and development of eTool; final list of eTool features outlined* - Due Date: February, 2019
@@ -110,7 +111,7 @@ Deliverable 1 in SOW - *Support the review of existing Nigeria/Cameroon country 
 1. I received my first wire which includes the fees for subscriptions for GitHub and shinyapps.io. Other than those who have been included in the IT calls as well as the the larger equipment maintenance group, is there anyone else I should include on the access lists for these accounts? 
 2. Discuss current layout of the tool. Really coming along nicely.
 3. Deliverable 1 in SOW - *Support the review of existing Nigeria/Cameroon country data (Deliverable – data reviewed, interim report* - Due Date: December, 2018
-    + I have reviewed and [reported](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md) on the current state of the Nigeria data from the past laboratory assessment. 
+    + I have reviewed and **[reported](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md)** on the current state of the Nigeria data from the past laboratory assessment. 
     + I also have reached out to the Cameroon Team repeatedly, and have not had any success in obtaining their data. I understand that ASLM/IRESSEF/CDC will be meeting in Nigeria soon (perhaps even this week) where it is possible progress could be made on this front in person.
     + I would like to consider this deliverable fulfilled. Although, I would be happy to review their data if it is made accessible to me in the very near future. If we cannot obtain it during February I would like to close this deliverable and consider it completed.
 4. Deliverable 2 in SOW - *Collaborate with and lead the IT Task Force to identify the best systems, processes and tools to meet the program goals (Deliverable – weekly calls with Task Force to support review of data and development of eTool; final list of eTool features outlined* - Due Date: February, 2019
@@ -126,7 +127,7 @@ Deliverable 1 in SOW - *Support the review of existing Nigeria/Cameroon country 
     + Give a summary of the current state of the equipment
     + Allow the user to update equipment data - I'll have to play around with the eTool behavior but I think the user has to refresh the app for changes to be reflected.
     + The eTool will only show the most recent data for each piece of equipment, however the original data is retained in the underlying googlesheet, allowing for the development of equipment "life books."
-* As a follow-up to an inquiry from Theresa, I created an example code that could send alerts via email alerting partners to examine the eTool - [See example](https://github.com/paceafenet/etool_dev/blob/master/email_proof_of_concept.Rmd). R library used for this (blastula) can be found in the [final report](https://paceafenet.github.io/final_report/). Additionally, I created a pricing guide for row level security as well as report scheduling features in commercial software - priced out RStudio Connect, PBI, Tableau. Summary and slides sent to Theresa (Fatima and Ruth CC'd) - [See Slides](https://github.com/paceafenet/etool_dev/blob/master/Quick%20Pricing%20Guide%20%E2%80%93%20analytics%20reporting%20tools.pptx). Did she get it? Might have gone to spam.
+* As a follow-up to an inquiry from Theresa, I created an example code that could send alerts via email alerting partners to examine the eTool - **[See example](https://github.com/paceafenet/etool_dev/blob/master/email_proof_of_concept.Rmd)**. R library used for this (blastula) can be found in the **[final report](https://paceafenet.github.io/final_report/)**. Additionally, I created a pricing guide for row level security as well as report scheduling features in commercial software - priced out RStudio Connect, PBI, Tableau. Summary and slides sent to Theresa (Fatima and Ruth CC'd) - **[See Slides](https://github.com/paceafenet/etool_dev/blob/master/Quick%20Pricing%20Guide%20%E2%80%93%20analytics%20reporting%20tools.pptx)**. Did she get it? Might have gone to spam.
 
 ## Agenda Items
 
@@ -141,12 +142,12 @@ Deliverable 1 in SOW - *Support the review of existing Nigeria/Cameroon country 
 
 **Note:** Combined last week's progress with this week's since no one was on for the Wed IT call. 
 
-* As a follow-up to an inquiry from Theresa, I created an example code that could send alerts via email alerting partners to examine the eTool. R library used for this (blastula) can be found in the [final report](https://paceafenet.github.io/final_report/). Additionally, I created a pricing guide for row level security as well as report scheduling features in commercial software - priced out RStudio Connect, PBI, Tableau. Summary and slides sent to Theresa (Fatima and Ruth CC'd). 
+* As a follow-up to an inquiry from Theresa, I created an example code that could send alerts via email alerting partners to examine the eTool. R library used for this (blastula) can be found in the (([final report](https://paceafenet.github.io/final_report/)**. Additionally, I created a pricing guide for row level security as well as report scheduling features in commercial software - priced out RStudio Connect, PBI, Tableau. Summary and slides sent to Theresa (Fatima and Ruth CC'd). 
 * Sent Invoice 2 for payment to Mimi. First invoice still in progress for payment.
 * I changed the UI in app. First I added a couple ways to alter the underlying data and also condensed the interface layout. Still in progress to make sure it's working properly. Retains historical data as well. 
 * Finalized initial layout of the tool including background colors, text color, and object. Functionality to edit data to come later. Added custom layout for mobile. Currently, I have hidden several charts that appear on the desktop app from the mobile app. Will plan to change the UI for mobile.
 * Posted most up to date app to shinyapps.io. 
-* Sent Ruth the [link](https://travis-shinin-spot.shinyapps.io/etool_dev/) to the app.
+* Sent Ruth the **[link](https://travis-shinin-spot.shinyapps.io/etool_dev/)** to the app.
 * Added eTool link to the project home page.
 * Presented the current layout to the larger group for feedback.
 * Read up on ONA document. Usable API and seems reasonable, the question would be WHO would take ownership in the field and be responsible for entering data?
@@ -168,8 +169,8 @@ Deliverable 1 in SOW - *Support the review of existing Nigeria/Cameroon country 
 ## Agenda Items
 1. Current state of invoice. Sent, 12/26, need feedback on format and payment to progress.
 2. Discuss eTool current state. I have made significant progress, on the layout and functionality of the tool. I still need to add the ability to edit the data and have these changes captured in the app. However, the layout is coming along nicely.
-If you are not accessing the meeting via a computer, here is a [link](https://github.com/paceafenet/etool_dev/blob/master/screen%20grabs/eTool%20pic%20one%201_7_19.jpg) to a screen grab of the current layout.
-3. See updates in the [Final Report](https://paceafenet.github.io/final_report/) for additional tools used during development.
+If you are not accessing the meeting via a computer, here is a **[link](https://github.com/paceafenet/etool_dev/blob/master/screen%20grabs/eTool%20pic%20one%201_7_19.jpg)** to a screen grab of the current layout.
+3. See updates in the **[Final Report](https://paceafenet.github.io/final_report/)** for additional tools used during development.
 4. Have reached out to Cameroon a few times, hoping to reconnect now that most people should be back from leave. 
 
 # Dec 17 - Dec 30, 2018
@@ -178,7 +179,7 @@ If you are not accessing the meeting via a computer, here is a [link](https://gi
 
 * During the Dec 18 call it was requested that in addition to the website version of the progress reports, I also make the report available as a pdf or word document if possible. It took a bit of figuring out, but I will now be asking Ruth to attach the most up to date version of the progress report as a pdf to each week's meeting invite as well as include the link to the progress report site. 
 * Drafted and sent the first invoice for first five weeks of work.
-* Finalized the Nigeria report. During the Dec 18 call it was also requested that I also summarize the service providers in the Nigerian assessment data. Note to Travis: Go to the [report](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md) and summarize this additional table. 
+* Finalized the Nigeria report. During the Dec 18 call it was also requested that I also summarize the service providers in the Nigerian assessment data. Note to Travis: Go to the **[report](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md)** and summarize this additional table. 
 * Began developing eTool application code based on fake data set. 
 
 ## Agenda Items
@@ -191,8 +192,8 @@ If you are not accessing the meeting via a computer, here is a [link](https://gi
 
 * Reached out to Cameroon for in-country data
 * Reached out to Mimi for clarification regarding invoicing procedures. Will await her response before upgrading current GitHub account to Developer version. 
-* My plan is to use Google Sheets as the data source for the eTool, and use the eTool to edit the data in Google Sheets. I will use an approach similar to this [app](https://jennybc.shinyapps.io/10_read-write-private-sheet/) (code [here](https://github.com/jennybc/googlesheets/tree/master/inst/shiny-examples/10_read-write-private-sheet)). I have authenticated the project Google account using this approach and can access a toy data set I created in Google Sheets. 
-* Added [Nigeria Data Report](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md) to the project home page. A link to this report is included here and on the home page. A more aesthetically pleasing copy of the report has also been sent as an attachment ahead of this meeting. Full process and initial results contained in this report, major conclusions and questions resulting from these analyses included below in the agenda items.
+* My plan is to use Google Sheets as the data source for the eTool, and use the eTool to edit the data in Google Sheets. I will use an approach similar to this **[app](https://jennybc.shinyapps.io/10_read-write-private-sheet/)** (code **[here](https://github.com/jennybc/googlesheets/tree/master/inst/shiny-examples/10_read-write-private-sheet))**. I have authenticated the project Google account using this approach and can access a toy data set I created in Google Sheets. 
+* Added **[Nigeria Data Report](https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md)** to the project home page. A link to this report is included here and on the home page. A more aesthetically pleasing copy of the report has also been sent as an attachment ahead of this meeting. Full process and initial results contained in this report, major conclusions and questions resulting from these analyses included below in the agenda items.
 
 ## Agenda Items
 
@@ -205,7 +206,7 @@ If you are not accessing the meeting via a computer, here is a [link](https://gi
 
 ## Progress Items
 
-* Created a project GitHub account and associated repositories. Currently there are three repositories; one that will contain all eTool development code, another that will host a [GitHub Page](https://pages.github.com/) for progress, and a third repository that will host a GitHub page for the project's [Final Report](https://paceafenet.github.io/final_report/).
+* Created a project GitHub account and associated repositories. Currently there are three repositories; one that will contain all eTool development code, another that will host a **[GitHub Page](https://pages.github.com/)** for progress, and a third repository that will host a GitHub page for the project's **[Final Report](https://paceafenet.github.io/final_report/)**.
 * Created associated RProject file for each repository and made templates that will be used to populate the GitHub pages referenced above.
 * Began writing the outline and portions of the Final Report page. This will be a living document that serves as a road map of how this project was completed.
 * Began reviewing Nigeria data. 

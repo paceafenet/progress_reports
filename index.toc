@@ -7,8 +7,8 @@
 \contentsline {section}{Feb 25th - March 3rd, 2019}{2}{section*.8}
 \contentsline {subsection}{Progress Items}{2}{section*.9}
 \contentsline {subsection}{Agenda Items}{2}{section*.10}
-\contentsline {section}{Feb 11 - Feb 17, 2019 + Feb 18 - Feb 24th}{2}{section*.11}
-\contentsline {subsection}{Progress Items}{2}{section*.12}
+\contentsline {section}{Feb 11 - Feb 17, 2019 + Feb 18 - Feb 24th}{3}{section*.11}
+\contentsline {subsection}{Progress Items}{3}{section*.12}
 \contentsline {subsection}{Agenda Items}{3}{section*.13}
 \contentsline {section}{Feb 4 - Feb 10, 2019}{3}{section*.14}
 \contentsline {subsection}{Progress Items}{3}{section*.15}
