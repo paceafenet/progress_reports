@@ -22,12 +22,28 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
+# March 18th - March 24th, 2019
+
+## Progress Items
+
+* Made revisions to the **[form](https://travis-shinin-spot.shinyapps.io/new_equip_form/)** for new equipment. It is now possible for some of the dropdowns to type in an additional option if not already shown.
+* Created a [user guide](https://github.com/paceafenet/etool_dev/blob/master/New%20Equipment%20Form%20User%20Guide.pdf) for the form referenced above.
+* Added more demo courses to the project RStudio Cloud [workspace](https://rstudio.cloud/project/255745).
+* Added material to the [Final Report](https://paceafenet.github.io/final_report/).
+
+## Agenda Items
+
+1. Discuss form for new equipment
+2. User guide
+3. RStudio Cloud
+4. Final Report
+
 # March 12th - March 17th, 2019
 
 ## Progress Items
 
-* Created a *[form](https://travis-shinin-spot.shinyapps.io/new_equip_form/)* to add data for new equipment to the eTool database. Added link to it in eTool.
-* Created a project *[workspace](https://rstudio.cloud/project/255745)* that could be used to build capacity in R programming so that the eTool could be adapted in country.
+* Created a **[form](https://travis-shinin-spot.shinyapps.io/new_equip_form/)** to add data for new equipment to the eTool database. Added link to it in eTool.
+* Created a project **[workspace](https://rstudio.cloud/project/255745)** that could be used to build capacity in R programming so that the eTool could be adapted in country.
 
 ## Agenda Items
 
