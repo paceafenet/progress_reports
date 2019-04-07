@@ -1,42 +1,45 @@
-\contentsline {section}{March 25th, - March 31st, 2019}{2}{section*.2}
+\contentsline {section}{April 1st - April 7th, 2019}{2}{section*.2}
 \contentsline {subsection}{Progress Items}{2}{section*.3}
 \contentsline {subsection}{Agenda Items}{2}{section*.4}
-\contentsline {section}{March 18th - March 24th, 2019}{2}{section*.5}
+\contentsline {section}{March 25th, - March 31st, 2019}{2}{section*.5}
 \contentsline {subsection}{Progress Items}{2}{section*.6}
 \contentsline {subsection}{Agenda Items}{2}{section*.7}
-\contentsline {section}{March 12th - March 17th, 2019}{2}{section*.8}
+\contentsline {section}{March 18th - March 24th, 2019}{2}{section*.8}
 \contentsline {subsection}{Progress Items}{2}{section*.9}
-\contentsline {subsection}{Agenda Items}{2}{section*.10}
-\contentsline {section}{March 4th - March 11th, 2019}{3}{section*.11}
+\contentsline {subsection}{Agenda Items}{3}{section*.10}
+\contentsline {section}{March 12th - March 17th, 2019}{3}{section*.11}
 \contentsline {subsection}{Progress Items}{3}{section*.12}
 \contentsline {subsection}{Agenda Items}{3}{section*.13}
-\contentsline {section}{Feb 25th - March 3rd, 2019}{3}{section*.14}
+\contentsline {section}{March 4th - March 11th, 2019}{3}{section*.14}
 \contentsline {subsection}{Progress Items}{3}{section*.15}
 \contentsline {subsection}{Agenda Items}{3}{section*.16}
-\contentsline {section}{Feb 11 - Feb 17, 2019 + Feb 18 - Feb 24th}{3}{section*.17}
+\contentsline {section}{Feb 25th - March 3rd, 2019}{3}{section*.17}
 \contentsline {subsection}{Progress Items}{3}{section*.18}
 \contentsline {subsection}{Agenda Items}{3}{section*.19}
-\contentsline {section}{Feb 4 - Feb 10, 2019}{4}{section*.20}
+\contentsline {section}{Feb 11 - Feb 17, 2019 + Feb 18 - Feb 24th}{4}{section*.20}
 \contentsline {subsection}{Progress Items}{4}{section*.21}
 \contentsline {subsection}{Agenda Items}{4}{section*.22}
-\contentsline {section}{Jan 28 - Feb 3, 2019}{4}{section*.23}
+\contentsline {section}{Feb 4 - Feb 10, 2019}{4}{section*.23}
 \contentsline {subsection}{Progress Items}{4}{section*.24}
-\contentsline {subsection}{Agenda Items}{5}{section*.25}
-\contentsline {section}{Jan 21 - Jan 27, 2019}{5}{section*.26}
+\contentsline {subsection}{Agenda Items}{4}{section*.25}
+\contentsline {section}{Jan 28 - Feb 3, 2019}{5}{section*.26}
 \contentsline {subsection}{Progress Items}{5}{section*.27}
-\contentsline {subsection}{Agenda Items}{6}{section*.28}
-\contentsline {section}{Jan 7, - Jan 13 + Jan 14, - Jan 20, 2019}{6}{section*.29}
-\contentsline {subsection}{Progress Items}{6}{section*.30}
+\contentsline {subsection}{Agenda Items}{5}{section*.28}
+\contentsline {section}{Jan 21 - Jan 27, 2019}{5}{section*.29}
+\contentsline {subsection}{Progress Items}{5}{section*.30}
 \contentsline {subsection}{Agenda Items}{6}{section*.31}
-\contentsline {section}{Dec 31, 2018 - Jan 6, 2019}{6}{section*.32}
+\contentsline {section}{Jan 7, - Jan 13 + Jan 14, - Jan 20, 2019}{6}{section*.32}
 \contentsline {subsection}{Progress Items}{6}{section*.33}
-\contentsline {subsection}{Agenda Items}{7}{section*.34}
-\contentsline {section}{Dec 17 - Dec 30, 2018}{7}{section*.35}
+\contentsline {subsection}{Agenda Items}{6}{section*.34}
+\contentsline {section}{Dec 31, 2018 - Jan 6, 2019}{7}{section*.35}
 \contentsline {subsection}{Progress Items}{7}{section*.36}
 \contentsline {subsection}{Agenda Items}{7}{section*.37}
-\contentsline {section}{Dec 3 - Dec 16, 2018}{7}{section*.38}
+\contentsline {section}{Dec 17 - Dec 30, 2018}{7}{section*.38}
 \contentsline {subsection}{Progress Items}{7}{section*.39}
 \contentsline {subsection}{Agenda Items}{7}{section*.40}
-\contentsline {section}{Nov 22 - Dec 2, 2018}{8}{section*.41}
-\contentsline {subsection}{Progress Items}{8}{section*.42}
+\contentsline {section}{Dec 3 - Dec 16, 2018}{7}{section*.41}
+\contentsline {subsection}{Progress Items}{7}{section*.42}
 \contentsline {subsection}{Agenda Items}{8}{section*.43}
+\contentsline {section}{Nov 22 - Dec 2, 2018}{8}{section*.44}
+\contentsline {subsection}{Progress Items}{8}{section*.45}
+\contentsline {subsection}{Agenda Items}{8}{section*.46}

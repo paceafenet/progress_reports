@@ -4,15 +4,15 @@ title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
 # output:
-#   pdf_document:
-#     toc: TRUE
+#   html_document:
+#     toc: true
 #     toc_depth: 2
+#     toc_float: true
+output:
+  pdf_document:
+    toc: TRUE
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -21,6 +21,17 @@ knitr::opts_chunk$set(echo = F,
                       message = F)
 
 ```
+
+# April 1st - April 7th, 2019
+
+## Progress Items
+
+* Created an RStudio Cloud **[lesson](https://travis-shinin-spot.shinyapps.io/new_equip_form/)** on maintaining and changing the code for the new equipment **[form](https://travis-shinin-spot.shinyapps.io/new_equip_form/)**. 
+* Plan to also create one for making equipment life books and generating a basic report using equipment data. 
+
+## Agenda Items
+
+1. I would suggest instead of having our regular call at the normal time on Wednesdays, that we see if the larger group would like a demonstration on a different day. Perhaps either at 7 am or 11 am?
 
 # March 25th, - March 31st, 2019
 
@@ -39,7 +50,7 @@ knitr::opts_chunk$set(echo = F,
 
 ## Progress Items
 
-* Made revisions to the **[form](https://travis-shinin-spot.shinyapps.io/new_equip_form/)** for new equipment. It is now possible for some of the dropdowns to type in an additional option if not already shown.
+* Made revisions to the **[form](https://travis-shinin-spot.shinyapps.io/new_equip_form/)** for new equipment. It is now possible for some of the drop downs to type in an additional option if not already shown.
 * Created a **[user guide](https://github.com/paceafenet/etool_dev/blob/master/New%20Equipment%20Form%20User%20Guide.pdf)** for the form referenced above.
 * Added more demo courses to the project RStudio Cloud **[workspace](https://rstudio.cloud/project/255745)**.
 * Added material to the **[Final Report](https://paceafenet.github.io/final_report/)**.
@@ -70,7 +81,7 @@ knitr::opts_chunk$set(echo = F,
 ## Progress Items
 
 * Discussed current progress with Theresa. Specifically, we discussed issues regarding deploying the tool to the field and issues with partners in-country being able to fully adapt, maintain, and use data entered/altered using the eTool.
-* Installed RStudio Connect QuickStart. This is essentially a trial version of RStudio Connect that you run locally on your machine rather than on a server. This is the service I would recommend to CDC as other analytics tools are essentially for reporting only. You can develop reports and administrate access to those reports, however users/viewers cannot alter underlying data using those reporting tools. 
+* Installed RStudio Connect QuickStart. This is essentially a trial version of RStudio Connect that you run locally on your machine rather than on a server. This is the service I would recommend to CDC as other analytic tools are essentially for reporting only. You can develop reports and administrate access to those reports, however users/viewers cannot alter underlying data using those reporting tools. 
 * Updated Final report.
 * Updated eTool to include second page with form for uploading data for a single new piece of equipment. 
 
