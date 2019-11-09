@@ -7,11 +7,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Travis Sondgerath" />
 
-<meta name="date" content="2019-04-07" />
+<meta name="date" content="2019-11-09" />
 
 <title>Weekly Progress Reports</title>
 
@@ -69,8 +70,6 @@ overflow: auto;
 margin-left: 2%;
 position: fixed;
 border: 1px solid #ccc;
-webkit-border-radius: 6px;
-moz-border-radius: 6px;
 border-radius: 6px;
 }
 
@@ -98,9 +97,14 @@ font-size: 12px;
 .tocify-subheader .tocify-subheader {
 text-indent: 30px;
 }
-
 .tocify-subheader .tocify-subheader .tocify-subheader {
 text-indent: 40px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 50px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 60px;
 }
 
 .tocify .tocify-item > a, .tocify .nav-list .nav-header {
@@ -504,13 +508,13 @@ float: none;
 
           item.append($("<a/>", {
 
-            "text": self.text()
+            "html": self.html()
 
           }));
 
         } else {
 
-          item.text(self.text());
+          item.html(self.html());
 
         }
 
@@ -1327,9 +1331,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -1343,7 +1345,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -1354,50 +1355,72 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -1446,8 +1469,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -1456,6 +1477,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -1474,8 +1505,8 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Weekly Progress Reports</h1>
-<h4 class="author"><em>Travis Sondgerath</em></h4>
-<h4 class="date"><em>2019-04-07</em></h4>
+<h4 class="author">Travis Sondgerath</h4>
+<h4 class="date">2019-11-09</h4>
 
 </div>
 
@@ -1778,7 +1809,7 @@ div.tocify {
 <li>Follow-up after initial exploration of Nigeria data.</li>
 </ol>
 <ul>
-<li>For more accurate location of lab equipment we would will need latitude and longitudes of labs, or at least more descriptive addresses. Geocoded existing addresses to limited success.</li>
+<li>For more accurate location of lab equipment we would will need latitude and longitudes of labs, or at least more descriptive addresses. Geo coded existing addresses to limited success.</li>
 <li>These data can be used for demonstration as they are now, but the eTool will be most useful with a complete inventory of equipment at each lab.</li>
 <li>Information initially identified as essential including calibration dates which could be used to identify when equipment is due for maintenance, calibration, or retirement is largely dependent on manufacturer specifications. From the data as it is currently, it would not be possible to identify when equipment should next be serviced. This point will require further discussion.</li>
 </ul>
@@ -1821,6 +1852,26 @@ div.tocify {
 </ol>
 </div>
 </div>
+<div id="sep-16---oct-31-2019" class="section level1">
+<h1>Sep 16 - Oct 31, 2019</h1>
+<div id="progress-items-15" class="section level2">
+<h2>Progress Items</h2>
+<ul>
+<li>Research
+<ul>
+<li>Read through online documents for the best approach to collecting data using ODK technologies. My sense is that the best way to go about it is to use a combination of the <a href="https://ona.io/about-us.html">Ona</a> platform and <a href="https://docs.opendatakit.org/collect-intro/">ODK Collect</a> for Android devices.</li>
+<li>ODK recently released <a href="https://docs.opendatakit.org/central-intro/">ODK Central</a>, a way for organizations to host their data collection on a private server. ODK Aggregate is a similar service and can be hosted either on-premises or even on inexpensive cloud-based platforms like Digital Ocean. My impression is that Ona is very user friendly. It is very easy to export data from Ona in a number of formats, upload forms configured in Excel files as surveys, and to manage forms and projects through a free account.</li>
+<li>Researched ODK Briefcase for offline capabilities. I do not think ODK Briefcase is necessary for this project. Briefcase is essentially a local copy of a survey project directory complete with all forms, meta data, and responses. The advantage of using briefcase is that you can take responses without connection, upload them via SD card to a Briefcase directory on a laptop, and then upload the whole directory to an online project directory hosted on a server at a later time once you have an internet connection. I do not think this is necessary. ODK Collect and Ona are sufficient for this project. ODK Collect allows the user to capture responses in blank form(s). Their responses are cashed in the device browser, and then submitted to the Ona host once they have online connection.</li>
+</ul></li>
+<li>Development
+<ul>
+<li>Created forms using <a href="https://docs.opendatakit.org/build-intro/">ODK Build</a>, a tool created by ODK to make creating ODK forms with a Graphical User Interface possible. ODK forms are uploaded to platforms that accept forms as Excel files but must be formatted in a very specific way. ODK Build allows the user to easily design the appearance of a form, export it to Excel, and then upload that file to platforms like Ona. The four forms created include the Equipment Activity Form - documentation of Maintenance Activities, Equipment Information Form - to document newly added equipment and any changes to equipment information, Request Maintenance - to request maintenance for a specific piece of equipment, Request Calibration - to request calibration for a specific piece of equipment.</li>
+<li>Created a project account in Ona to manage forms and submitted dummy responses to these forms.</li>
+<li>Figured out how to pull data from Ona forms.</li>
+</ul></li>
+</ul>
+</div>
+</div>
 
 
 
@@ -1840,6 +1891,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

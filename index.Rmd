@@ -1,18 +1,16 @@
 ---
-# BE SURE TO OUTPUT TWICE - AS HTML AND PDF
+# BE SURE TO OUTPUT TWICE - Once w/o TOC and then save to pdf via Chrome, then with TOC as an html
+
 title: "Weekly Progress Reports"
 description: |
 author: Travis Sondgerath
 date: "`r Sys.Date()`"
-# output:
-#   html_document:
-#     toc: true
-#     toc_depth: 2
-#     toc_float: true
 output:
-  pdf_document:
-    toc: TRUE
+  html_document:
+    toc: true
     toc_depth: 2
+    toc_float: true
+
 ---
 
 ```{r setup, include=FALSE}
@@ -238,7 +236,7 @@ If you are not accessing the meeting via a computer, here is a **[link](https://
 ## Agenda Items
 
 1. Follow-up after initial exploration of Nigeria data.
-* For more accurate location of lab equipment we would will need latitude and longitudes of labs, or at least more descriptive addresses. Geocoded existing addresses to limited success. 
+* For more accurate location of lab equipment we would will need latitude and longitudes of labs, or at least more descriptive addresses. Geo coded existing addresses to limited success. 
 * These data can be used for demonstration as they are now, but the eTool will be most useful with a complete inventory of equipment at each lab.
 * Information initially identified as essential including calibration dates which could be used to identify when equipment is due for maintenance, calibration, or retirement is largely dependent on manufacturer specifications. From the data as it is currently, it would not be possible to identify when equipment should next be serviced. This point will require further discussion.
 
@@ -265,6 +263,20 @@ If you are not accessing the meeting via a computer, here is a **[link](https://
 3. Nigeria Data: Quite a bit there, maybe not everything we would need. Biggest issue; for each machine type, one row per lab, allows them to say more than one machine but only one serial number showing.Took a while to successfully import the data from the Nigeria Access Databases, solved it. Still working on initial data exploration, will update on next call.
 4. When can we hope to obtain in-country data from Cameroon? 
 5. When should I purchase and invoice a shinyapps.io account?
+
+# Sep 16 - Oct 31, 2019
+
+## Progress Items
+
+* Research
+    + Read through online documents for the best approach to collecting data using ODK technologies. My sense is that the best way to go about it is to use a combination of the [Ona](https://ona.io/about-us.html) platform and [ODK Collect](https://docs.opendatakit.org/collect-intro/) for Android devices. 
+    + ODK recently released [ODK Central](https://docs.opendatakit.org/central-intro/), a way for organizations to host their data collection on a private server. ODK Aggregate is a similar service and can be hosted either on-premises or even on inexpensive cloud-based platforms like Digital Ocean. My impression is that Ona is very user friendly. It is very easy to export data from Ona in a number of formats, upload forms configured in Excel files as surveys, and to manage forms and projects through a free account.
+    + Researched ODK Briefcase for offline capabilities. I do not think ODK Briefcase is necessary for this project. Briefcase is essentially a local copy of a survey project directory complete with all forms, meta data, and responses. The advantage of using briefcase is that you can take responses without connection, upload them via SD card to a Briefcase directory on a laptop, and then upload the whole directory to an online project directory hosted on a server at a later time once you have an internet connection. I do not think this is necessary. ODK Collect and Ona are sufficient for this project. ODK Collect allows the user to capture responses in blank form(s). Their responses are cashed in the device browser, and then submitted to the Ona host once they have online connection. 
+* Development
+    + Created forms using [ODK Build](https://docs.opendatakit.org/build-intro/), a tool created by ODK to make creating ODK forms with a Graphical User Interface possible. ODK forms are uploaded to platforms that accept forms as Excel files but must be formatted in a very specific way. ODK Build allows the user to easily design the appearance of a form, export it to Excel, and then upload that file to platforms like Ona. The four forms created include the Equipment Activity Form - documentation of Maintenance Activities, Equipment Information Form - to document newly added equipment and any changes to equipment information, Request Maintenance - to request maintenance for a specific piece of equipment, Request Calibration - to request calibration for a specific piece of equipment. 
+    + Created a project account in Ona to manage forms and submitted dummy responses to these forms. 
+    + Figured out how to pull data from Ona forms. 
+
 
 
 

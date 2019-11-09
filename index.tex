@@ -1,0 +1,978 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Weekly Progress Reports},
+            pdfauthor={Travis Sondgerath},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Weekly Progress Reports}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Travis Sondgerath}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2019-11-09}
+
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\hypertarget{april-1st---april-7th-2019}{%
+\section{April 1st - April 7th, 2019}\label{april-1st---april-7th-2019}}
+
+\hypertarget{progress-items}{%
+\subsection{Progress Items}\label{progress-items}}
+
+\begin{itemize}
+\tightlist
+\item
+  Created an RStudio Cloud
+  \textbf{\href{https://travis-shinin-spot.shinyapps.io/new_equip_form/}{lesson}}
+  on maintaining and changing the code for the new equipment
+  \textbf{\href{https://travis-shinin-spot.shinyapps.io/new_equip_form/}{form}}.
+\item
+  Plan to also create one for making equipment life books and generating
+  a basic report using equipment data.
+\end{itemize}
+
+\hypertarget{agenda-items}{%
+\subsection{Agenda Items}\label{agenda-items}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  I would suggest instead of having our regular call at the normal time
+  on Wednesdays, that we see if the larger group would like a
+  demonstration on a different day. Perhaps either at 7 am or 11 am?
+\end{enumerate}
+
+\hypertarget{march-25th---march-31st-2019}{%
+\section{March 25th, - March 31st,
+2019}\label{march-25th---march-31st-2019}}
+
+\hypertarget{progress-items-1}{%
+\subsection{Progress Items}\label{progress-items-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Created mandatory fields in the
+  \textbf{\href{https://travis-shinin-spot.shinyapps.io/new_equip_form/}{form}}
+  for new equipment.
+\item
+  Finished annotations for RStudio Cloud
+  \textbf{\href{https://rstudio.cloud/project/255745}{workspace}} lesson
+  on maintaining the eTool code
+\item
+  Updated final report.
+\end{itemize}
+
+\hypertarget{agenda-items-1}{%
+\subsection{Agenda Items}\label{agenda-items-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Wanted to make sure to let everyone know that I was compensated for
+  January/February work. Have invoiced Mimi for March.
+\item
+  Discuss date proposals for larger group discussion. Good time to
+  update them on progress.
+\item
+  Discuss RStudio Cloud Workspace.
+\end{enumerate}
+
+\hypertarget{march-18th---march-24th-2019}{%
+\section{March 18th - March 24th,
+2019}\label{march-18th---march-24th-2019}}
+
+\hypertarget{progress-items-2}{%
+\subsection{Progress Items}\label{progress-items-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  Made revisions to the
+  \textbf{\href{https://travis-shinin-spot.shinyapps.io/new_equip_form/}{form}}
+  for new equipment. It is now possible for some of the drop downs to
+  type in an additional option if not already shown.
+\item
+  Created a
+  \textbf{\href{https://github.com/paceafenet/etool_dev/blob/master/New\%20Equipment\%20Form\%20User\%20Guide.pdf}{user
+  guide}} for the form referenced above.
+\item
+  Added more demo courses to the project RStudio Cloud
+  \textbf{\href{https://rstudio.cloud/project/255745}{workspace}}.
+\item
+  Added material to the
+  \textbf{\href{https://paceafenet.github.io/final_report/}{Final
+  Report}}.
+\end{itemize}
+
+\hypertarget{agenda-items-2}{%
+\subsection{Agenda Items}\label{agenda-items-2}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Discuss form for new equipment
+\item
+  User guide
+\item
+  RStudio Cloud
+\item
+  Final Report
+\end{enumerate}
+
+\hypertarget{march-12th---march-17th-2019}{%
+\section{March 12th - March 17th,
+2019}\label{march-12th---march-17th-2019}}
+
+\hypertarget{progress-items-3}{%
+\subsection{Progress Items}\label{progress-items-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  Created a
+  \textbf{\href{https://travis-shinin-spot.shinyapps.io/new_equip_form/}{form}}
+  to add data for new equipment to the eTool database. Added link to it
+  in eTool.
+\item
+  Created a project
+  \textbf{\href{https://rstudio.cloud/project/255745}{workspace}} that
+  could be used to build capacity in R programming so that the eTool
+  could be adapted in country.
+\end{itemize}
+
+\hypertarget{agenda-items-3}{%
+\subsection{Agenda Items}\label{agenda-items-3}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  New form created - go over
+\item
+  Discuss conversation with Theresa and RStudio Cloud test work space.
+\item
+  Discuss RStudio Connect updates below.
+\item
+  Payment delay. Need status update, can provide further info if
+  necessary.
+\end{enumerate}
+
+\hypertarget{march-4th---march-11th-2019}{%
+\section{March 4th - March 11th,
+2019}\label{march-4th---march-11th-2019}}
+
+\hypertarget{progress-items-4}{%
+\subsection{Progress Items}\label{progress-items-4}}
+
+\begin{itemize}
+\tightlist
+\item
+  Discussed current progress with Theresa. Specifically, we discussed
+  issues regarding deploying the tool to the field and issues with
+  partners in-country being able to fully adapt, maintain, and use data
+  entered/altered using the eTool.
+\item
+  Installed RStudio Connect QuickStart. This is essentially a trial
+  version of RStudio Connect that you run locally on your machine rather
+  than on a server. This is the service I would recommend to CDC as
+  other analytic tools are essentially for reporting only. You can
+  develop reports and administrate access to those reports, however
+  users/viewers cannot alter underlying data using those reporting
+  tools.
+\item
+  Updated Final report.
+\item
+  Updated eTool to include second page with form for uploading data for
+  a single new piece of equipment.
+\end{itemize}
+
+\hypertarget{agenda-items-4}{%
+\subsection{Agenda Items}\label{agenda-items-4}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Discuss RStudio Connect layout and admin tools.
+\item
+  Discuss RStudio Cloud.
+\item
+  Discuss additions to eTool.
+\end{enumerate}
+
+\hypertarget{feb-25th---march-3rd-2019}{%
+\section{Feb 25th - March 3rd, 2019}\label{feb-25th---march-3rd-2019}}
+
+\hypertarget{progress-items-5}{%
+\subsection{Progress Items}\label{progress-items-5}}
+
+\begin{itemize}
+\tightlist
+\item
+  I have begun developing more technical documentation on adapting the
+  eTool code for future use.
+\end{itemize}
+
+\hypertarget{agenda-items-5}{%
+\subsection{Agenda Items}\label{agenda-items-5}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Discuss eTool outline.
+\item
+  Discuss technical guidance.
+\item
+  Payment request for January submitted to CDC. Any to get more timely
+  payment?
+\end{enumerate}
+
+\hypertarget{feb-11---feb-17-2019-feb-18---feb-24th}{%
+\section{Feb 11 - Feb 17, 2019 + Feb 18 - Feb
+24th}\label{feb-11---feb-17-2019-feb-18---feb-24th}}
+
+\hypertarget{progress-items-6}{%
+\subsection{Progress Items}\label{progress-items-6}}
+
+\begin{itemize}
+\tightlist
+\item
+  Developed outline for eTool (Deliverable 2). Refined the outline
+  further. This outline can serve as a user manual for those tracking
+  equipment data in the field. A technical user manual will complement
+  this as a component of deliverable 3. I would like to share this
+  document with the larger equipment maintenance group.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Output as pdf and added to project home page.
+  \end{itemize}
+\item
+  Discuss whether or not I am ready to develop a technical user manual
+  for maintaining the eTool code.
+\end{itemize}
+
+\hypertarget{agenda-items-6}{%
+\subsection{Agenda Items}\label{agenda-items-6}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Discuss eTool outline.
+\item
+  Discuss considering Deliverable 1 as completed.
+\end{enumerate}
+
+\hypertarget{feb-4---feb-10-2019}{%
+\section{Feb 4 - Feb 10, 2019}\label{feb-4---feb-10-2019}}
+
+\hypertarget{progress-items-7}{%
+\subsection{Progress Items}\label{progress-items-7}}
+
+\begin{itemize}
+\tightlist
+\item
+  Made eTool dev repository private and sent Mimi receipt for 12 month
+  subscription. Sent email alluding to who I would like to add as
+  collaborators. They will need to create GitHub accounts to view,
+  discussed in email to Ruth and Fatima.
+\item
+  eTool dev repository set as private, however, I left the final report
+  and progress reports repositories as public. There is nothing
+  sensitive and the websites developed from these repositories are worth
+  showing outsiders for accountability and to describe our work.
+\end{itemize}
+
+\hypertarget{agenda-items-7}{%
+\subsection{Agenda Items}\label{agenda-items-7}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  I went through the equipment inventory from Ruth that she received
+  from Biologic Solutions. It could be useful if these are in the actual
+  Cameroon data, however, is this all the information they have about
+  their equipment? Currently, there is nothing other than type, do they
+  have service dates? Or perhaps this is just info they don't have? I
+  would really like to know how specific their data is.
+\item
+  Discuss my email regarding adding those involved with the equipment
+  maintenance project as collaborators on GitHub if not resolved
+  already.
+\item
+  \textbf{Good time to discuss SOW:} Deliverable 1 in SOW -
+  \emph{Support the review of existing Nigeria/Cameroon country data
+  (Deliverable -- data reviewed, interim report} - Due Date: December,
+  2018
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I have reviewed and
+    \textbf{\href{https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md}{reported}}
+    on the current state of the Nigeria data from the past laboratory
+    assessment.
+  \item
+    I also have reached out to the Cameroon Team repeatedly, and have
+    not had any success in obtaining their data. I understand that
+    ASLM/IRESSEF/CDC will be meeting in Nigeria soon (perhaps even this
+    week) where it is possible progress could be made on this front in
+    person.
+  \item
+    I would like to consider this deliverable fulfilled. Although, I
+    would be happy to review their data if it is made accessible to me
+    in the very near future. If we cannot obtain it during February I
+    would like to close this deliverable and consider it completed.
+  \end{itemize}
+\item
+  Deliverable 2 in SOW - \emph{Collaborate with and lead the IT Task
+  Force to identify the best systems, processes and tools to meet the
+  program goals (Deliverable -- weekly calls with Task Force to support
+  review of data and development of eTool; final list of eTool features
+  outlined} - Due Date: February, 2019
+
+  \begin{itemize}
+  \tightlist
+  \item
+    We have consistently held weekly meetings and I have provided
+    updates on progress. Ruth has been the most consistent attendee on
+    the progress management side and I believe my progress has been
+    swift and satisfactory.
+  \item
+    There are a few more changes I plan to make to the eTool, however, I
+    believe that the core functionality and layout is set. If it is
+    agreed upon that the current tool is acceptable, I would like to
+    begin creating an outline of eTool features and post this report to
+    GitHub to satisfy this deliverable.
+  \item
+    Finalizing the eTool layout and working on the outline will allow me
+    to begin developing metrics for a dashboard to support project and
+    laboratory supervisors in assessing maintenance activities (part of
+    SOW deliverable 3).
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{jan-28---feb-3-2019}{%
+\section{Jan 28 - Feb 3, 2019}\label{jan-28---feb-3-2019}}
+
+\hypertarget{progress-items-8}{%
+\subsection{Progress Items}\label{progress-items-8}}
+
+\begin{itemize}
+\tightlist
+\item
+  eTool Updates - Added confirmation message once the user selects the
+  update date button. This will inform them that they have altered the
+  underlying equipment data. Additionally, I have added popup boxes to
+  inform them they have altered the underlying data.
+\item
+  Updated the final report, specifically the R libraries section.
+\item
+  Reviewed contract deliverables. Worth discussing the current state
+  (see agenda items).
+\end{itemize}
+
+\hypertarget{agenda-items-8}{%
+\subsection{Agenda Items}\label{agenda-items-8}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  I received my first wire which includes the fees for subscriptions for
+  GitHub and shinyapps.io. Other than those who have been included in
+  the IT calls as well as the the larger equipment maintenance group, is
+  there anyone else I should include on the access lists for these
+  accounts?
+\item
+  Discuss current layout of the tool. Really coming along nicely.
+\item
+  Deliverable 1 in SOW - \emph{Support the review of existing
+  Nigeria/Cameroon country data (Deliverable -- data reviewed, interim
+  report} - Due Date: December, 2018
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I have reviewed and
+    \textbf{\href{https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md}{reported}}
+    on the current state of the Nigeria data from the past laboratory
+    assessment.
+  \item
+    I also have reached out to the Cameroon Team repeatedly, and have
+    not had any success in obtaining their data. I understand that
+    ASLM/IRESSEF/CDC will be meeting in Nigeria soon (perhaps even this
+    week) where it is possible progress could be made on this front in
+    person.
+  \item
+    I would like to consider this deliverable fulfilled. Although, I
+    would be happy to review their data if it is made accessible to me
+    in the very near future. If we cannot obtain it during February I
+    would like to close this deliverable and consider it completed.
+  \end{itemize}
+\item
+  Deliverable 2 in SOW - \emph{Collaborate with and lead the IT Task
+  Force to identify the best systems, processes and tools to meet the
+  program goals (Deliverable -- weekly calls with Task Force to support
+  review of data and development of eTool; final list of eTool features
+  outlined} - Due Date: February, 2019
+
+  \begin{itemize}
+  \tightlist
+  \item
+    We have consistently held weekly meetings and I have provided
+    updates on progress. Ruth has been the most consistent attendee on
+    the progress management side and I believe my progress has been
+    swift and satisfactory.
+  \item
+    There are a few more changes I plan to make to the eTool, however, I
+    believe that the core functionality and layout is set. If it is
+    agreed upon that the current tool is acceptable, I would like to
+    begin creating an outline of eTool features and post this report to
+    GitHub to satisfy this deliverable.
+  \item
+    Finalizing the eTool layout and working on the outline will allow me
+    to begin developing metrics for a dashboard to support project and
+    laboratory supervisors in assessing maintenance activities (part of
+    SOW deliverable 3).
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{jan-21---jan-27-2019}{%
+\section{Jan 21 - Jan 27, 2019}\label{jan-21---jan-27-2019}}
+
+\hypertarget{progress-items-9}{%
+\subsection{Progress Items}\label{progress-items-9}}
+
+\begin{itemize}
+\tightlist
+\item
+  I was able to get the data behind the eTool (googlesheets) to update
+  based on user input in the eTool. At first I had trouble reconciling
+  the date formats of the dates from my original ``fake'' data with the
+  new data added by the user. I was able to get things working correctly
+  but my initial approach would have slowed the tool down too much even
+  for demonstration purposes. I am re-worked my approach and now it is
+  functioning correctly. The tool now includes core functionality either
+  outlined in the contract or discussed during calls, namely it can:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Give a summary of the current state of the equipment
+  \item
+    Allow the user to update equipment data - I'll have to play around
+    with the eTool behavior but I think the user has to refresh the app
+    for changes to be reflected.
+  \item
+    The eTool will only show the most recent data for each piece of
+    equipment, however the original data is retained in the underlying
+    googlesheet, allowing for the development of equipment ``life
+    books.''
+  \end{itemize}
+\item
+  As a follow-up to an inquiry from Theresa, I created an example code
+  that could send alerts via email alerting partners to examine the
+  eTool -
+  \textbf{\href{https://github.com/paceafenet/etool_dev/blob/master/email_proof_of_concept.Rmd}{See
+  example}}. R library used for this (blastula) can be found in the
+  \textbf{\href{https://paceafenet.github.io/final_report/}{final
+  report}}. Additionally, I created a pricing guide for row level
+  security as well as report scheduling features in commercial software
+  - priced out RStudio Connect, PBI, Tableau. Summary and slides sent to
+  Theresa (Fatima and Ruth CC'd) -
+  \textbf{\href{https://github.com/paceafenet/etool_dev/blob/master/Quick\%20Pricing\%20Guide\%20\%E2\%80\%93\%20analytics\%20reporting\%20tools.pptx}{See
+  Slides}}. Did she get it? Might have gone to spam.
+\end{itemize}
+
+\hypertarget{agenda-items-9}{%
+\subsection{Agenda Items}\label{agenda-items-9}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Follow-up on any action items from larger group meeting. Discuss the
+  PowerPoint in the eTool repository (see link above).
+\item
+  Discuss the current state of the layout and the addition of `reactive'
+  events.
+\item
+  Briefly discuss ONA thoughts.
+\item
+  Consider follow-up with Cameroon team for their data. Worth getting to
+  add to report of current data state. Gives us good information for
+  what we `need' for the tool as well as completing one of the project
+  deliverables.
+\end{enumerate}
+
+\hypertarget{jan-7---jan-13-jan-14---jan-20-2019}{%
+\section{Jan 7, - Jan 13 + Jan 14, - Jan 20,
+2019}\label{jan-7---jan-13-jan-14---jan-20-2019}}
+
+\hypertarget{progress-items-10}{%
+\subsection{Progress Items}\label{progress-items-10}}
+
+\textbf{Note:} Combined last week's progress with this week's since no
+one was on for the Wed IT call.
+
+\begin{itemize}
+\tightlist
+\item
+  As a follow-up to an inquiry from Theresa, I created an example code
+  that could send alerts via email alerting partners to examine the
+  eTool. R library used for this (blastula) can be found in the
+  ((\href{https://paceafenet.github.io/final_report/}{final report}**.
+  Additionally, I created a pricing guide for row level security as well
+  as report scheduling features in commercial software - priced out
+  RStudio Connect, PBI, Tableau. Summary and slides sent to Theresa
+  (Fatima and Ruth CC'd).
+\item
+  Sent Invoice 2 for payment to Mimi. First invoice still in progress
+  for payment.
+\item
+  I changed the UI in app. First I added a couple ways to alter the
+  underlying data and also condensed the interface layout. Still in
+  progress to make sure it's working properly. Retains historical data
+  as well.
+\item
+  Finalized initial layout of the tool including background colors, text
+  color, and object. Functionality to edit data to come later. Added
+  custom layout for mobile. Currently, I have hidden several charts that
+  appear on the desktop app from the mobile app. Will plan to change the
+  UI for mobile.
+\item
+  Posted most up to date app to shinyapps.io.
+\item
+  Sent Ruth the
+  \textbf{\href{https://travis-shinin-spot.shinyapps.io/etool_dev/}{link}}
+  to the app.
+\item
+  Added eTool link to the project home page.
+\item
+  Presented the current layout to the larger group for feedback.
+\item
+  Read up on ONA document. Usable API and seems reasonable, the question
+  would be WHO would take ownership in the field and be responsible for
+  entering data?
+\end{itemize}
+
+\hypertarget{agenda-items-10}{%
+\subsection{Agenda Items}\label{agenda-items-10}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Have not heard back from Mimi as of yet. Need feedback on invoice.
+\item
+  Follow-up on any action items from larger group meeting. Discuss the
+  PowerPoint in the eTool repository (see link above).
+\item
+  Discuss the current state of the layout and the addition of `reactive'
+  events.
+\item
+  Briefly discuss ONA thoughts.
+\item
+  Consider follow-up with Cameroon team for their data. Worth getting to
+  add to report of current data state. Gives us good information for
+  what we `need' for the tool as well as completing one of the project
+  deliverables.
+\end{enumerate}
+
+\hypertarget{dec-31-2018---jan-6-2019}{%
+\section{Dec 31, 2018 - Jan 6, 2019}\label{dec-31-2018---jan-6-2019}}
+
+\hypertarget{progress-items-11}{%
+\subsection{Progress Items}\label{progress-items-11}}
+
+\begin{itemize}
+\tightlist
+\item
+  Working on layout of eTool. Currently have a map, charts describing
+  the current state of the data, as well as tables in a single layout.
+\item
+  Updated final report with additional libraries used in eTool
+  development (DT and leaflet).
+\end{itemize}
+
+\hypertarget{agenda-items-11}{%
+\subsection{Agenda Items}\label{agenda-items-11}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Current state of invoice. Sent, 12/26, need feedback on format and
+  payment to progress.
+\item
+  Discuss eTool current state. I have made significant progress, on the
+  layout and functionality of the tool. I still need to add the ability
+  to edit the data and have these changes captured in the app. However,
+  the layout is coming along nicely. If you are not accessing the
+  meeting via a computer, here is a
+  \textbf{\href{https://github.com/paceafenet/etool_dev/blob/master/screen\%20grabs/eTool\%20pic\%20one\%201_7_19.jpg}{link}}
+  to a screen grab of the current layout.
+\item
+  See updates in the
+  \textbf{\href{https://paceafenet.github.io/final_report/}{Final
+  Report}} for additional tools used during development.
+\item
+  Have reached out to Cameroon a few times, hoping to reconnect now that
+  most people should be back from leave.
+\end{enumerate}
+
+\hypertarget{dec-17---dec-30-2018}{%
+\section{Dec 17 - Dec 30, 2018}\label{dec-17---dec-30-2018}}
+
+\hypertarget{progress-items-12}{%
+\subsection{Progress Items}\label{progress-items-12}}
+
+\begin{itemize}
+\tightlist
+\item
+  During the Dec 18 call it was requested that in addition to the
+  website version of the progress reports, I also make the report
+  available as a pdf or word document if possible. It took a bit of
+  figuring out, but I will now be asking Ruth to attach the most up to
+  date version of the progress report as a pdf to each week's meeting
+  invite as well as include the link to the progress report site.
+\item
+  Drafted and sent the first invoice for first five weeks of work.
+\item
+  Finalized the Nigeria report. During the Dec 18 call it was also
+  requested that I also summarize the service providers in the Nigerian
+  assessment data. Note to Travis: Go to the
+  \textbf{\href{https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md}{report}}
+  and summarize this additional table.
+\item
+  Began developing eTool application code based on fake data set.
+\end{itemize}
+
+\hypertarget{agenda-items-12}{%
+\subsection{Agenda Items}\label{agenda-items-12}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Discuss eTool layout. So far working on the map to show what labs need
+  attention (discuss criteria), general layout scheme developed.
+\item
+  Discuss Nigeria report updates.
+\end{enumerate}
+
+\hypertarget{dec-3---dec-16-2018}{%
+\section{Dec 3 - Dec 16, 2018}\label{dec-3---dec-16-2018}}
+
+\hypertarget{progress-items-13}{%
+\subsection{Progress Items}\label{progress-items-13}}
+
+\begin{itemize}
+\tightlist
+\item
+  Reached out to Cameroon for in-country data
+\item
+  Reached out to Mimi for clarification regarding invoicing procedures.
+  Will await her response before upgrading current GitHub account to
+  Developer version.
+\item
+  My plan is to use Google Sheets as the data source for the eTool, and
+  use the eTool to edit the data in Google Sheets. I will use an
+  approach similar to this
+  \textbf{\href{https://jennybc.shinyapps.io/10_read-write-private-sheet/}{app}}
+  (code
+  \textbf{\href{https://github.com/jennybc/googlesheets/tree/master/inst/shiny-examples/10_read-write-private-sheet}{here})}.
+  I have authenticated the project Google account using this approach
+  and can access a toy data set I created in Google Sheets.
+\item
+  Added
+  \textbf{\href{https://github.com/paceafenet/etool_dev/blob/master/existing_lab_data_exploration.md}{Nigeria
+  Data Report}} to the project home page. A link to this report is
+  included here and on the home page. A more aesthetically pleasing copy
+  of the report has also been sent as an attachment ahead of this
+  meeting. Full process and initial results contained in this report,
+  major conclusions and questions resulting from these analyses included
+  below in the agenda items.
+\end{itemize}
+
+\hypertarget{agenda-items-13}{%
+\subsection{Agenda Items}\label{agenda-items-13}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Follow-up after initial exploration of Nigeria data.
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  For more accurate location of lab equipment we would will need
+  latitude and longitudes of labs, or at least more descriptive
+  addresses. Geo coded existing addresses to limited success.
+\item
+  These data can be used for demonstration as they are now, but the
+  eTool will be most useful with a complete inventory of equipment at
+  each lab.
+\item
+  Information initially identified as essential including calibration
+  dates which could be used to identify when equipment is due for
+  maintenance, calibration, or retirement is largely dependent on
+  manufacturer specifications. From the data as it is currently, it
+  would not be possible to identify when equipment should next be
+  serviced. This point will require further discussion.
+\end{itemize}
+
+\hypertarget{nov-22---dec-2-2018}{%
+\section{Nov 22 - Dec 2, 2018}\label{nov-22---dec-2-2018}}
+
+\hypertarget{progress-items-14}{%
+\subsection{Progress Items}\label{progress-items-14}}
+
+\begin{itemize}
+\tightlist
+\item
+  Created a project GitHub account and associated repositories.
+  Currently there are three repositories; one that will contain all
+  eTool development code, another that will host a
+  \textbf{\href{https://pages.github.com/}{GitHub Page}} for progress,
+  and a third repository that will host a GitHub page for the project's
+  \textbf{\href{https://paceafenet.github.io/final_report/}{Final
+  Report}}.
+\item
+  Created associated RProject file for each repository and made
+  templates that will be used to populate the GitHub pages referenced
+  above.
+\item
+  Began writing the outline and portions of the Final Report page. This
+  will be a living document that serves as a road map of how this
+  project was completed.
+\item
+  Began reviewing Nigeria data.
+\item
+  Created `fake' equipment data should we be unable to obtain sufficient
+  equipment data from the field.
+\end{itemize}
+
+\hypertarget{agenda-items-14}{%
+\subsection{Agenda Items}\label{agenda-items-14}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  It is important that I store all code and progress reports using
+  GitHub both for accountability and to facilitate reproduction of this
+  project in the future. It is worth considering what should be kept in
+  the repository. For example, the data I receive from Nigeria and
+  Cameroon in country partners may include information we would not want
+  to be accessible in GitHub.
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Comments on the GitHub Pages layout?
+\item
+  Thoughts on where to store in country data?
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Lab-level Metrics for evaluation;
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Equipment up time vs downtime
+\item
+  Avg number of equipment past due for repair or servicing
+\item
+  Elapsed time after past due
+\item
+  What are acceptable levels for the above?
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Nigeria Data: Quite a bit there, maybe not everything we would need.
+  Biggest issue; for each machine type, one row per lab, allows them to
+  say more than one machine but only one serial number showing.Took a
+  while to successfully import the data from the Nigeria Access
+  Databases, solved it. Still working on initial data exploration, will
+  update on next call.
+\item
+  When can we hope to obtain in-country data from Cameroon?
+\item
+  When should I purchase and invoice a shinyapps.io account?
+\end{enumerate}
+
+\hypertarget{sep-16---oct-31-2019}{%
+\section{Sep 16 - Oct 31, 2019}\label{sep-16---oct-31-2019}}
+
+\hypertarget{progress-items-15}{%
+\subsection{Progress Items}\label{progress-items-15}}
+
+\begin{itemize}
+\tightlist
+\item
+  Research
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Read through online documents for the best approach to collecting
+    data using ODK technologies. My sense is that the best way to go
+    about it is to use a combination of the
+    \href{https://ona.io/about-us.html}{Ona} platform and
+    \href{https://docs.opendatakit.org/collect-intro/}{ODK Collect} for
+    Android devices.
+  \item
+    ODK recently released
+    \href{https://docs.opendatakit.org/central-intro/}{ODK Central}, a
+    way for organizations to host their data collection on a private
+    server. ODK Aggregate is a similar service and can be hosted either
+    on-premises or even on inexpensive cloud-based platforms like
+    Digital Ocean. My impression is that Ona is very user friendly. It
+    is very easy to export data from Ona in a number of formats, upload
+    forms configured in Excel files as surveys, and to manage forms and
+    projects through a free account.
+  \item
+    Researched ODK Briefcase for offline capabilities. I do not think
+    ODK Briefcase is necessary for this project. Briefcase is
+    essentially a local copy of a survey project directory complete with
+    all forms, meta data, and responses. The advantage of using
+    briefcase is that you can take responses without connection, upload
+    them via SD card to a Briefcase directory on a laptop, and then
+    upload the whole directory to an online project directory hosted on
+    a server at a later time once you have an internet connection. I do
+    not think this is necessary. ODK Collect and Ona are sufficient for
+    this project. ODK Collect allows the user to capture responses in
+    blank form(s). Their responses are cashed in the device browser, and
+    then submitted to the Ona host once they have online connection.
+  \end{itemize}
+\item
+  Development
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Created forms using
+    \href{https://docs.opendatakit.org/build-intro/}{ODK Build}, a tool
+    created by ODK to make creating ODK forms with a Graphical User
+    Interface possible. ODK forms are uploaded to platforms that accept
+    forms as Excel files but must be formatted in a very specific way.
+    ODK Build allows the user to easily design the appearance of a form,
+    export it to Excel, and then upload that file to platforms like Ona.
+    The four forms created include the Equipment Activity Form -
+    documentation of Maintenance Activities, Equipment Information Form
+    - to document newly added equipment and any changes to equipment
+    information, Request Maintenance - to request maintenance for a
+    specific piece of equipment, Request Calibration - to request
+    calibration for a specific piece of equipment.
+  \item
+    Created a project account in Ona to manage forms and submitted dummy
+    responses to these forms.
+  \item
+    Figured out how to pull data from Ona forms.
+  \end{itemize}
+\end{itemize}
+
+
+\end{document}
