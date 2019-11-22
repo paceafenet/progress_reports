@@ -12,7 +12,7 @@
 
 <meta name="author" content="Travis Sondgerath" />
 
-<meta name="date" content="2019-11-09" />
+<meta name="date" content="2019-11-22" />
 
 <title>Weekly Progress Reports</title>
 
@@ -1506,7 +1506,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Weekly Progress Reports</h1>
 <h4 class="author">Travis Sondgerath</h4>
-<h4 class="date">2019-11-09</h4>
+<h4 class="date">2019-11-22</h4>
 
 </div>
 
@@ -1868,6 +1868,31 @@ div.tocify {
 <li>Created forms using <a href="https://docs.opendatakit.org/build-intro/">ODK Build</a>, a tool created by ODK to make creating ODK forms with a Graphical User Interface possible. ODK forms are uploaded to platforms that accept forms as Excel files but must be formatted in a very specific way. ODK Build allows the user to easily design the appearance of a form, export it to Excel, and then upload that file to platforms like Ona. The four forms created include the Equipment Activity Form - documentation of Maintenance Activities, Equipment Information Form - to document newly added equipment and any changes to equipment information, Request Maintenance - to request maintenance for a specific piece of equipment, Request Calibration - to request calibration for a specific piece of equipment.</li>
 <li>Created a project account in Ona to manage forms and submitted dummy responses to these forms.</li>
 <li>Figured out how to pull data from Ona forms.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="nov-1---nov-24-2019" class="section level1">
+<h1>Nov 1 - Nov 24, 2019</h1>
+<div id="progress-items-16" class="section level2">
+<h2>Progress Items</h2>
+<!-- Be sure to also go through OneNote for additional progress items -->
+<ul>
+<li>Created a pipeline to get data from Ona and feed into a reporting application.
+<ul>
+<li>Added constants to add to expected equipment activity dates</li>
+<li>Created logic to pull most recent data from relevant forms</li>
+<li>Created logic to flag equipment in need of attention for various reasons.</li>
+<li>Still allows for reporting on historical data.</li>
+<li>Improved ease of querying data from Ona.</li>
+<li>Created additional forms for Ona using Form Builder; request forms, form to enter or change equipment info, form to enter equipment activity interaction.</li>
+<li>Pipeline includes logic for unduplication of data where appropriate.</li>
+</ul></li>
+<li>Created report from Ona data that will be used to show;
+<ul>
+<li>Current data describing equipment</li>
+<li>Historical equipment data including changes to equipment location, and responsible staff for maintenance</li>
+<li>Requests for equipment calibration and maintenance.</li>
 </ul></li>
 </ul>
 </div>

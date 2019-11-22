@@ -277,6 +277,47 @@ If you are not accessing the meeting via a computer, here is a **[link](https://
     + Created a project account in Ona to manage forms and submitted dummy responses to these forms. 
     + Figured out how to pull data from Ona forms. 
 
+# Nov 1 - Nov 24, 2019
+
+## Progress Items
+<!-- Be sure to also go through OneNote for additional progress items -->
+* Created a pipeline to get data from Ona and feed into a reporting application.
+    + Added constants to add to expected equipment activity dates
+    + Created logic to pull most recent data from relevant forms
+    + Created logic to flag equipment in need of attention for various reasons. 
+    + Still allows for reporting on historical data. 
+    + Improved ease of querying data from Ona.
+    + Created additional forms for Ona using Form Builder; request forms, form to enter or change equipment info, form to enter equipment activity interaction.
+    + Pipeline includes logic for unduplication of data where appropriate.
+* Created report from Ona data that will be used to show;
+    + Current data describing equipment
+    + Historical equipment data including changes to equipment location, and responsible staff for maintenance
+    + Requests for equipment calibration and maintenance. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
