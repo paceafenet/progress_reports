@@ -277,7 +277,7 @@ If you are not accessing the meeting via a computer, here is a **[link](https://
     + Created a project account in Ona to manage forms and submitted dummy responses to these forms. 
     + Figured out how to pull data from Ona forms. 
 
-# Nov 1 - Nov 24, 2019
+# Nov 1 - Nov 29, 2019
 
 ## Progress Items
 <!-- Be sure to also go through OneNote for additional progress items -->
@@ -293,6 +293,11 @@ If you are not accessing the meeting via a computer, here is a **[link](https://
     + Current data describing equipment
     + Historical equipment data including changes to equipment location, and responsible staff for maintenance
     + Requests for equipment calibration and maintenance. 
+    + Key summary measures as well as detailed information describing equipment
+* Created documentation for existing reports
+    + Outline describing expected deliverables
+    + Documentation to support the use of Ona surveys
+    + Documentation to server as guidance for navigating the eTool
 
 
 
