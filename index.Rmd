@@ -20,6 +20,31 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
+# August 17th - September 6th, 2020
+
+**Important Note**
+
+The contract between CDC and IRESSEF was terminated as of November, 2019. As such some activities were left unfinished. Progress documentation was resumed August 17th to track progress beginning with the new contract aimed at resuming activities under the direction of ASLM and CDC. As such the format of the progress reports has changed per instructions from ASLM.
+
+## Key Activities by Project Objective
+
+1.	Support the development of Ona surveys to be used to in the field to collect data on newly deployed equipment, as well as to update data on existing equipment already in circulation 
+  * Created and sent documentation on what I need to revise the surveys to make them useful for actual use in the field
+  * Sent documentation on connecting to forms in ODK Collect
+2.	Support the deployment of an ASLM administered reporting platform
+  * Created an Amazon Web Services Account and added a developer user
+  * Began configuring the server to run the eTool code.
+ADD MORE HERE ABOUT REVISION OF REPORTS AND DEPLOYMENT NOTES
+
+## Challenges
+
+* Need feedback on the forms and must have someone attempt to use them
+* While it is not a blocker for doing work at present. I would really like to replace my credit card on Amazon Web Services with another payment method.
+* Currently having issues configuring the environment. The free to use tier infrastructure may have issues installing packages I will need in the environment. Will investigate further. In order to bypass this issue as well as the payment issue, we may want to provision a paid shinyapps.io account. The environment would already be set to accept the eTool code, authentication comes with the Standard and Professional accounts, and 10,000 active hours comes with the professional tier which is enough to run an application constant with hours to spare for other testing applications. Additionally, this service could be paid up front which allows me to invoice the cost of the service as opposed to running a pay as you go platform like Amazon Web Services. 
+  + Standard plan - \$99/month or \$1,100/year
+  + Professional Plan - \$299/month or \$3,300/year
+
+
 # April 1st - April 7th, 2019
 
 ## Progress Items
