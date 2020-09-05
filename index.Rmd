@@ -1,5 +1,5 @@
 ---
-# BE SURE TO OUTPUT TWICE - Once w/o TOC and then save to pdf via Chrome, then with TOC as an html
+# Save to pdf via Chrome
 
 title: "Weekly Progress Reports"
 description: |
@@ -7,9 +7,9 @@ author: Travis Sondgerath
 date: "`r Sys.Date()`"
 output:
   html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
+    # toc: true
+    # toc_depth: 2
+    # toc_float: true
 
 ---
 
@@ -33,14 +33,12 @@ The contract between CDC and IRESSEF was terminated as of November, 2019. As suc
   * Sent documentation on connecting to forms in ODK Collect
 2.	Support the deployment of an ASLM administered reporting platform
   * Created an Amazon Web Services Account and added a developer user
-  * Began configuring the server to run the eTool code.
-ADD MORE HERE ABOUT REVISION OF REPORTS AND DEPLOYMENT NOTES
+  * Began configuring the server to run the eTool code.See below for related issues. 
 
 ## Challenges
 
 * Need feedback on the forms and must have someone attempt to use them
-* While it is not a blocker for doing work at present. I would really like to replace my credit card on Amazon Web Services with another payment method.
-* Currently having issues configuring the environment. The free to use tier infrastructure may have issues installing packages I will need in the environment. Will investigate further. In order to bypass this issue as well as the payment issue, we may want to provision a paid shinyapps.io account. The environment would already be set to accept the eTool code, authentication comes with the Standard and Professional accounts, and 10,000 active hours comes with the professional tier which is enough to run an application constant with hours to spare for other testing applications. Additionally, this service could be paid up front which allows me to invoice the cost of the service as opposed to running a pay as you go platform like Amazon Web Services. 
+* Currently having issues configuring the environment in AWS. The free to use tier may not have enough computing power to install key packages, This is not unique to AWS and would be an issue on any cloud provider. In order to bypass this issue as well as the payment issue, we may want to provision a paid shinyapps.io account. The environment would already be set to accept the eTool code, authentication comes with the Standard and Professional accounts, and 10,000 active hours comes with the professional tier which is enough to run an application constantly with hours to spare for other testing applications. Additionally, this service could be paid up front which allows me to invoice the cost of the service as opposed to running a pay as you go platform like Amazon Web Services. 
   + Standard plan - \$99/month or \$1,100/year
   + Professional Plan - \$299/month or \$3,300/year
 
