@@ -20,6 +20,20 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
+# September 7th - 13th
+
+## Key Activities by Project Objective
+
+1.	Support the development of Ona surveys to be used to in the field to collect data on newly deployed equipment, as well as to update data on existing equipment already in circulation 
+  * Explained forms to CDC Nigeria contact and requested additional feedback and to attempt to collect data using these forms. 
+2.	Support the deployment of an ASLM administered reporting platform
+  * Requested funding for platform to publish reports to. 
+
+## Challenges
+
+* Need feedback on the forms and must have someone attempt to use them
+* Same context as previous time period noted below 
+
 # August 17th - September 6th, 2020
 
 **Important Note**
