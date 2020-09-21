@@ -20,6 +20,17 @@ knitr::opts_chunk$set(echo = F,
 
 ```
 
+# September 14th - 20th
+
+## Key Activities by Project Objective
+
+1.	Support the development of Ona surveys to be used to in the field to collect data on newly deployed equipment, as well as to update data on existing equipment already in circulation 
+  * Received feedback on one of the forms. Waiting on additional feedback 
+2.	Support the deployment of an ASLM administered reporting platform
+  * Gave instructions to finance on provisioning reporting environment. 
+
+## Challenges
+
 # September 7th - 13th
 
 ## Key Activities by Project Objective
